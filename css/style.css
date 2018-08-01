@@ -39,6 +39,11 @@ a {
 	font-weight: 600;
 	font-size: 18px;
 	margin: 0 20px;
+	border-bottom:2px solid transparent;
+}
+
+a:hover {
+	border-color:white;
 }
 
 h2 {
@@ -63,4 +68,38 @@ h1, h2, a {
 	color: #F15B31;
 	margin: 0;
 	padding: 0;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float:left;
+}
+
+.message {
+	font-family: "Raleway", sans-serif;
+	float:right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+	color:#F15B31;
+	font-weight: 700;
 }
